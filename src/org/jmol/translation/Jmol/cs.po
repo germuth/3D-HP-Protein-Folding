@@ -1,0 +1,2035 @@
+# Jmol application.
+# Copyright (C) 1998-2004 The Jmol Development Team
+# This file is distributed under the same license as the Jmol package.
+# Pavel Jakubů AUTHOR <pavel.jakubu@tul.cz>, 2007.
+# translation homework under supervision of Martin Slavik, <martin.slavik@tul.cz>.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Jmol\n"
+"Report-Msgid-Bugs-To: jmol-developers@lists.sourceforge.net\n"
+"POT-Creation-Date: 2013-01-07 07:16+0100\n"
+"PO-Revision-Date: 2013-01-13 09:41+0000\n"
+"Last-Translator: Zdeněk Chalupský <Unknown>\n"
+"Language-Team: Czech <Jmol-developers@lists.sf.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-02-02 16:28+0000\n"
+"X-Generator: Launchpad (build 16462)\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-Language: Czech\n"
+
+#: org/jmol/appletjs/Jmol.java:365
+#, java-format
+msgid ""
+"Jmol Applet version {0} {1}.\n"
+"\n"
+"An OpenScience project.\n"
+"\n"
+"See http://www.jmol.org for more information"
+msgstr ""
+"Jmol Aplet verze {0} {1}.\n"
+"\n"
+"Open Science projekt.\n"
+"\n"
+"Pro více informací navštivte  http://www.jmol.org"
+
+#: org/jmol/appletjs/Jmol.java:532
+msgid "File Error:"
+msgstr "Chyba souboru:"
+
+#: org/jmol/awtjs2d/JSModelKitPopup.java:76
+msgid "Element?"
+msgstr "Prvek?"
+
+#: org/openscience/jmol/app/JmolApp.java:100
+msgid "Error starting Jmol: the property 'user.home' is not defined."
+msgstr "Chyba při spouštění Jmolu: vlastnost 'user.home' není definována."
+
+#: org/openscience/jmol/app/JmolApp.java:137
+msgid "transparent background"
+msgstr "průhledné pozadí"
+
+#: org/openscience/jmol/app/JmolApp.java:138
+msgid "give this help page"
+msgstr "zobrazí tuto stránku nápovědy"
+
+#: org/openscience/jmol/app/JmolApp.java:140
+msgid "no display (and also exit when done)"
+msgstr "bez zobrazení (následně skončí po vykonání)"
+
+#: org/openscience/jmol/app/JmolApp.java:142
+msgid "check script syntax only - no file loading"
+msgstr "zkontrolovat pouze syntaxi skriptu - bez nahrání souboru"
+
+#: org/openscience/jmol/app/JmolApp.java:144
+msgid "check script syntax only - with file loading"
+msgstr "zkontrolovat pouze syntaxi skriptu - s nahráním souboru"
+
+#: org/openscience/jmol/app/JmolApp.java:145
+msgid "debug"
+msgstr "ladit"
+
+#: org/openscience/jmol/app/JmolApp.java:146
+msgid "silent startup operation"
+msgstr "tichý start"
+
+#: org/openscience/jmol/app/JmolApp.java:148
+msgid "kiosk mode -- no frame"
+msgstr "kiosk mód -- bez rámu"
+
+#: org/openscience/jmol/app/JmolApp.java:150
+msgid "list commands during script execution"
+msgstr "Vypsat příkazy během provádění skriptu"
+
+#: org/openscience/jmol/app/JmolApp.java:152
+msgid "start with no splash screen"
+msgstr "startovat bez úvodní obrazovky"
+
+#: org/openscience/jmol/app/JmolApp.java:154
+msgid "no console -- all output to sysout"
+msgstr "bez konzole -- všechen výstup na sysout"
+
+#: org/openscience/jmol/app/JmolApp.java:156
+msgid "send only output from print messages to console (implies -i)"
+msgstr "poslat pouze výstup příkazů print na konzoli (předpokládá -i)"
+
+#: org/openscience/jmol/app/JmolApp.java:158
+msgid "restrict local file access"
+msgstr "omezit přístup k lokálním souborům"
+
+#: org/openscience/jmol/app/JmolApp.java:160
+msgid "restrict local file access (allow reading of SPT files)"
+msgstr "omezit přístup k lokálním souborům (povolit čtení SPT souborů)"
+
+#: org/openscience/jmol/app/JmolApp.java:162
+msgid "independent command thread"
+msgstr "nezávislé vlákno příkazů"
+
+#: org/openscience/jmol/app/JmolApp.java:164
+msgid "exit after script (implicit with -n)"
+msgstr "konec po skriptu (implicitně s -n)"
+
+#: org/openscience/jmol/app/JmolApp.java:167
+msgid "port for JSON/MolecularPlayground-style communication"
+msgstr "port pro JSON / MolecularPlayground - styl komunikace"
+
+#: org/openscience/jmol/app/JmolApp.java:173
+msgid "script file to execute or '-' for System.in"
+msgstr "soubor skriptu pro spuštění nebo  '-' pro System.in"
+
+#: org/openscience/jmol/app/JmolApp.java:179
+msgid "use multitouch interface (requires \"sparshui\" parameter"
+msgstr "využití multitouch rozhraní (vyžaduje \"sparshui\" parametr"
+
+#: org/openscience/jmol/app/JmolApp.java:186
+msgid "Jmol script to execute BEFORE -s option"
+msgstr "Jmol skript pro spuštění s volbou BEFORE -s"
+
+#: org/openscience/jmol/app/JmolApp.java:192
+msgid "Jmol script to execute AFTER -s option"
+msgstr "Jmol skript pro spuštění s volbou AFTER -s"
+
+#: org/openscience/jmol/app/JmolApp.java:206
+msgid "property=value"
+msgstr "vlastnost = hodnota"
+
+#: org/openscience/jmol/app/JmolApp.java:209
+msgid "supported options are given below"
+msgstr "podporované možnosti: viz níže"
+
+#: org/openscience/jmol/app/JmolApp.java:215
+#, java-format
+msgid "window width x height, e.g. {0}"
+msgstr "šířka x výška okna, např. {0}"
+
+#: org/openscience/jmol/app/JmolApp.java:225
+msgid ""
+"JPG image quality (1-100; default 75) or PNG image compression (0-9; default "
+"2, maximum compression 9)"
+msgstr ""
+"kvalita JPG obrázku (1-100; standardně 75) nebo komprese PNG obrázku (0-9; "
+"standardně 2, maximálně 9)"
+
+#: org/openscience/jmol/app/JmolApp.java:230
+#, java-format
+msgid "{0} or {1}:filename"
+msgstr "{0} nebo {1}: název souboru"
+
+#: org/openscience/jmol/app/JmolApp.java:244
+msgid "For example:"
+msgstr "Například:"
+
+#: org/openscience/jmol/app/JmolApp.java:250
+msgid ""
+"The -D options are as follows (defaults in parenthesis) and must be called "
+"preceding '-jar Jmol.jar':"
+msgstr ""
+"D-volby jsou následující (výchozí hodnoty v závorce) a musí být před názvem "
+"'-jar Jmol.jar':"
+
+#: org/openscience/jmol/app/JmolApp.java:502
+msgid "Executing script 1..."
+msgstr "Provádím skript 1..."
+
+#: org/openscience/jmol/app/JmolApp.java:512
+msgid "Executing script file..."
+msgstr "Spouštím soubor skriptu"
+
+#: org/openscience/jmol/app/JmolApp.java:533
+msgid "Executing script 2..."
+msgstr "Provádím skript 2..."
+
+#: org/openscience/jmol/app/jmolpanel/AboutDialog.java:70
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:207
+msgid "About Jmol"
+msgstr "O programu Jmol"
+
+#: org/openscience/jmol/app/jmolpanel/AboutDialog.java:81
+#: org/openscience/jmol/app/jmolpanel/HelpDialog.java:74
+#: org/openscience/jmol/app/jmolpanel/WhatsNewDialog.java:68
+#, java-format
+msgid "Unable to find url \"{0}\"."
+msgstr "Nemohu nalézt URL \"{0}\"."
+
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:186
+msgid "AtomSetChooser"
+msgstr "Výběr skupiny atomů"
+
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:190
+msgid "No AtomSets"
+msgstr "Žádná skupina atomů"
+
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:219
+msgid "Properties"
+msgstr "Vlastnosti"
+
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:227
+msgid "Atom Set Collection"
+msgstr "Kolekce sady atomů"
+
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:248
+msgid "Collection"
+msgstr "Kolekce"
+
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:253
+msgid "Info"
+msgstr "Informace"
+
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:260
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:177
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:460
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:606
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:627
+msgid "Select"
+msgstr "Vybrat"
+
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:275
+msgid "Repeat"
+msgstr "Opakovat"
+
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:287
+msgid "FPS"
+msgstr "FPS (snímků za sekundu)"
+
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:303
+msgid "Vector"
+msgstr "Vektor"
+
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:310
+msgid "Radius"
+msgstr "Poloměr"
+
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:323
+msgid "Scale"
+msgstr "Měřítko"
+
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:337
+msgid "Amplitude"
+msgstr "Amplituda"
+
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:347
+msgid "Period"
+msgstr "Perioda"
+
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:376
+msgid "Frame"
+msgstr "Snímek"
+
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:376
+msgid "Vibration"
+msgstr "Vibrace"
+
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:384
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:393
+msgid "Go to first atom set in the collection"
+msgstr "Jít na první soubor atomů v kolekci"
+
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:385
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:394
+msgid "Go to previous atom set in the collection"
+msgstr "Jít na předchozí soubor atomů v kolekci"
+
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:386
+msgid "Play the whole collection of atom sets"
+msgstr "Přehrát celou kolekci souborů atomů"
+
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:387
+msgid "Pause playing"
+msgstr "Pozastavit přehrávání"
+
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:388
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:397
+msgid "Go to next atom set in the collection"
+msgstr "Jít na další soubor atomů v kolekci"
+
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:389
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:398
+msgid "Jump to last atom set in the collection"
+msgstr "Skočit na poslední soubor atomů v kolekci"
+
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:395
+msgid "Vibration ON"
+msgstr "Vibrace zapnout"
+
+#: org/openscience/jmol/app/jmolpanel/AtomSetChooser.java:396
+msgid "Vibration OFF"
+msgstr "Vibrace vypnout"
+
+#: org/openscience/jmol/app/jmolpanel/DisplayPanel.java:232
+msgid "Delete atoms"
+msgstr "Smazat atomy"
+
+#: org/openscience/jmol/app/jmolpanel/GaussianDialog.java:187
+msgid "Export Gaussian Input File"
+msgstr "Exportovat vstupní soubor Gaussianu"
+
+#: org/openscience/jmol/app/jmolpanel/GaussianDialog.java:194
+msgid "Basic"
+msgstr "Základní"
+
+#: org/openscience/jmol/app/jmolpanel/GaussianDialog.java:196
+msgid "Advanced"
+msgstr "Pokročilé"
+
+#: org/openscience/jmol/app/jmolpanel/GaussianDialog.java:224
+msgid "Checkpoint File: "
+msgstr "Checkpoint soubor (se strojově čitelným výstupem): "
+
+#: org/openscience/jmol/app/jmolpanel/GaussianDialog.java:229
+msgid "Amount of Memory:"
+msgstr "Velikost paměti:"
+
+#: org/openscience/jmol/app/jmolpanel/GaussianDialog.java:235
+msgid "Number of Processors:"
+msgstr "Počet procesorů:"
+
+#: org/openscience/jmol/app/jmolpanel/GaussianDialog.java:248
+msgid "Route"
+msgstr "Trasa"
+
+#: org/openscience/jmol/app/jmolpanel/GaussianDialog.java:254
+msgid "Method: "
+msgstr "Metoda: "
+
+#: org/openscience/jmol/app/jmolpanel/GaussianDialog.java:261
+msgid "Basis Set: "
+msgstr "Basis Set (báze atomových orbitalů): "
+
+#: org/openscience/jmol/app/jmolpanel/GaussianDialog.java:269
+msgid "Density Fitting Basis Set (DFT Only): "
+msgstr "Density Fitting Basis Set (pouze DFT): "
+
+#: org/openscience/jmol/app/jmolpanel/GaussianDialog.java:275
+msgid "Job Options: "
+msgstr "Možnosti úlohy: "
+
+#: org/openscience/jmol/app/jmolpanel/GaussianDialog.java:288
+msgid "Molecular Properties"
+msgstr "Vlastnosti molekul"
+
+#: org/openscience/jmol/app/jmolpanel/GaussianDialog.java:294
+msgid "Total Charge: "
+msgstr "Celkový náboj: "
+
+#: org/openscience/jmol/app/jmolpanel/GaussianDialog.java:301
+msgid "Multiplicity: "
+msgstr "Multiplicita: "
+
+#: org/openscience/jmol/app/jmolpanel/GaussianDialog.java:308
+msgid "Selection: "
+msgstr "Výběr: "
+
+#: org/openscience/jmol/app/jmolpanel/GaussianDialog.java:343
+msgid "Gaussian Input File Name"
+msgstr "jméno vstupního souboru Gaussianu"
+
+#: org/openscience/jmol/app/jmolpanel/GaussianDialog.java:349
+msgid "File..."
+msgstr "Soubor..."
+
+#: org/openscience/jmol/app/jmolpanel/GaussianDialog.java:360
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:757
+msgid "Save"
+msgstr "Uložit"
+
+#: org/openscience/jmol/app/jmolpanel/GaussianDialog.java:364
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:502
+#: org/openscience/jmol/app/jmolpanel/RecentFilesDialog.java:69
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:67
+msgid "&Macros"
+msgstr "&Makra"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:68
+msgid "&File"
+msgstr "&Soubor"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:69
+msgid "&New"
+msgstr "&Nový"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:70
+msgid "&Open"
+msgstr "&Otevřít"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:71
+msgid "Open a file."
+msgstr "Otevřít soubor."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:72
+msgid "Open &URL"
+msgstr "Otevřít &URL"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:73
+msgid "&Get PDB"
+msgstr "Získat &PDB"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:74
+msgid "Get &MOL"
+msgstr "Získat &MOL"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:75
+msgid "&Reload"
+msgstr "O&bnovit"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:79
+msgid "Scrip&t Editor..."
+msgstr "&Editor skriptů..."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:80
+msgid "Conso&le..."
+msgstr "Konzo&le..."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:81
+msgid "Jmol Java &Console"
+msgstr "Jmol Java &Konzole"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:82
+msgid "AtomSet&Chooser..."
+msgstr "Výběr &skupiny atomů..."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:83
+msgid "&Save As..."
+msgstr "&Uložit jako..."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:84
+msgid "&Export"
+msgstr "E&xportovat"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:85
+msgid "Export &Image..."
+msgstr "Exportovat &obrázek..."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:86
+msgid "Save current view as an image."
+msgstr "Uložit aktuální zobrazení jako obrázek."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:87
+msgid "Export to &Web Page..."
+msgstr "Exportovat jako &webovou stránku..."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:88
+msgid "Export one or more views to a web page."
+msgstr "Exportovat jedno nebo více zobrazení  jako webovou stránku."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:89
+msgid "Render in POV-&Ray..."
+msgstr "Renderovat v programu POV-&Ray..."
+
+# POV vs. pov?
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:90
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:114
+msgid "Render in POV-Ray"
+msgstr "POV-ray vykreslení"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:91
+msgid "Write &State..."
+msgstr "Zapiš &Stav..."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:92
+msgid "Save current view as a Jmol state script."
+msgstr "Uložit aktuální zobrazení jako Jmol stavový skript."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:93
+msgid "&Print..."
+msgstr "&Tisk..."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:94
+msgid "Print view."
+msgstr "Tisknout pohled."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:95
+msgid "&Close"
+msgstr "&Zavřít"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:96
+msgid "E&xit"
+msgstr "&Konec"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:97
+msgid "Recent &Files..."
+msgstr "Poslední &soubory..."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:98
+msgid "&Edit"
+msgstr "&Upravit"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:100
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:106
+msgid "Select &All"
+msgstr "Vybr&at vše"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:101
+msgid "Deselect All"
+msgstr "Nevybrat nic"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:102
+msgid "Copy &Image"
+msgstr "Kopírovat &obrázek"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:103
+msgid "Copy Script"
+msgstr "Kopírovat skript"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:104
+msgid "Pr&eferences..."
+msgstr "&Předvolby..."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:105
+msgid "&Paste"
+msgstr "&Vložit"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:107
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:108
+msgid "&Select"
+msgstr "V&ybrat"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:109
+msgid "&All"
+msgstr "Vše (&a)"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:110
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:123
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:129
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:135
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:142
+msgid "&None"
+msgstr "Nic (&0)"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:111
+msgid "Hydrogen"
+msgstr "Vodík (&H)"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:112
+msgid "Carbon"
+msgstr "Uhlík (&C)"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:113
+msgid "Nitrogen"
+msgstr "Dusík (&N)"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:114
+msgid "Oxygen"
+msgstr "Kyslík (&O)"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:115
+msgid "Phosphorus"
+msgstr "Fosfor (&P)"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:116
+msgid "Sulfur"
+msgstr "Síra (&S)"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:117
+msgid "Amino"
+msgstr "Amino"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:118
+msgid "Nucleic"
+msgstr "Nukleový"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:119
+msgid "Water"
+msgstr "Voda"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:120
+msgid "Hetero"
+msgstr "Hetero"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:121
+msgid "&Display"
+msgstr "&Zobrazit"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:122
+msgid "&Atom"
+msgstr "&Atom"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:124
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:125
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:126
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:127
+#, java-format
+msgid "{0}% van der Waals"
+msgstr "{0}% van der Waals"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:128
+msgid "&Bond"
+msgstr "Vaz&ba"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:130
+msgid "&Wireframe"
+msgstr "&Drátový model"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:131
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:132
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:133
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:145
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:146
+#, java-format
+msgid "{0} Å"
+msgstr "{0} Å (1 Å = 1E-10 m)"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:134
+msgid "&Label"
+msgstr "&Popisek"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:136
+msgid "&Symbol"
+msgstr "&Symbol"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:137
+msgid "&Name"
+msgstr "&Jméno"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:138
+msgid "&Number"
+msgstr "&Číslo"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:139
+msgid "&Centered"
+msgstr "&Vystředit"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:140
+msgid "&Upper right"
+msgstr "Vpravo &nahoře"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:141
+msgid "&Vector"
+msgstr "V&ektor"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:143
+msgid "&On"
+msgstr "Zapnut&o"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:144
+#, java-format
+msgid "{0} pixels"
+msgstr "pixely: {0}"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:147
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:148
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:149
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:150
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:151
+#, java-format
+msgid "Scale {0}"
+msgstr "Měřítko {0}"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:152
+msgid "&Zoom"
+msgstr "&Zvětšit"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:153
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:154
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:155
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:156
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:157
+#, java-format
+msgid "{0}%"
+msgstr "{0}%"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:158
+msgid "&Perspective Depth"
+msgstr "&Hloubka perspektivy"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:159
+msgid "A&xes"
+msgstr "O&sy"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:160
+msgid "B&ounding Box"
+msgstr "H&raniční box"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:161
+msgid "&Hydrogens"
+msgstr "Vo&díky"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:162
+msgid "V&ectors"
+msgstr "V&ektory"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:163
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:175
+msgid "&Measurements"
+msgstr "&Měření"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:164
+msgid "Resi&ze"
+msgstr "Změ&nit velikost"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:165
+msgid "&View"
+msgstr "&Pohled"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:166
+msgid "&Front"
+msgstr "Ze&předu"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:167
+msgid "&Top"
+msgstr "&Shora"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:168
+msgid "&Bottom"
+msgstr "Z&dola"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:169
+msgid "&Right"
+msgstr "Zp&rava"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:170
+msgid "&Left"
+msgstr "Z&leva"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:171
+msgid "Tr&ansform..."
+msgstr "Tr&ansformovat..."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:172
+msgid "Define &Center"
+msgstr "&Určit střed"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:173
+msgid "&Tools"
+msgstr "&Nástroje"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:174
+msgid "&Gaussian..."
+msgstr "&Gaussian..."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:176
+msgid "Distance &Units"
+msgstr "&Jednotky vzdálenosti"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:177
+msgid "&Nanometers 1E-9"
+msgstr "&Nanometry 1E-9"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:178
+msgid "&Angstroms 1E-10"
+msgstr "&Angstromy 1E-10"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:179
+msgid "&Picometers 1E-12"
+msgstr "&Pikometry 1E-12"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:180
+msgid "&Animate..."
+msgstr "&Animovat..."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:181
+msgid "&Vibrate..."
+msgstr "&Vibrace..."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:182
+msgid "&Graph..."
+msgstr "&Graf..."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:183
+msgid "Calculate chemical &shifts..."
+msgstr "Vypočítat chemické po&suny..."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:184
+msgid "&Crystal Properties"
+msgstr "&Vlastnosti krystalu"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:185
+msgid "&Once"
+msgstr "&Jednou"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:186
+msgid "&Loop"
+msgstr "S&myčka"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:187
+msgid "P&alindrome"
+msgstr "P&alindrom"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:188
+msgid "&Stop animation"
+msgstr "Za&stav animaci"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:189
+msgid "&Rewind to first frame"
+msgstr "&Jdi na první snímek"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:190
+msgid "Rewind to first frame"
+msgstr "Jdi na první snímek"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:191
+msgid "Go to &next frame"
+msgstr "Jdi na &následující snímek"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:192
+msgid "Go to next frame"
+msgstr "Jdi na další snímek"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:193
+msgid "Go to &previous frame"
+msgstr "J&di na předchozí snímek"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:194
+msgid "Go to previous frame"
+msgstr "Jdi na předchozí snímek"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:195
+msgid "All &frames"
+msgstr "&Všechny snímky"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:196
+msgid "All frames"
+msgstr "Všechny snímky"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:197
+msgid "Go to &last frame"
+msgstr "Jdi na &poslední snímek"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:198
+msgid "Go to last frame"
+msgstr "Jít na poslední snímek"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:199
+msgid "Start &vibration"
+msgstr "Spustit &vibrace"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:200
+msgid "&Stop vibration"
+msgstr "Za&stavit vibrace"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:201
+msgid "&First frequency"
+msgstr "První &frekvence"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:202
+msgid "&Next frequency"
+msgstr "&Další frekvence"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:203
+msgid "&Previous frequency"
+msgstr "&Předchozí frekvence"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:204
+msgid "SurfaceTool..."
+msgstr ""
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:205
+msgid "Control Display of Surfaces"
+msgstr "Ovládání Zobrazení povrchů"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:206
+msgid "&Help"
+msgstr "&Nápověda"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:208
+msgid "User Guide"
+msgstr "Uživatelská příručka"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:209
+msgid "What's New"
+msgstr "Co je nového?"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:210
+msgid "Hydrogens"
+msgstr "Vodíky"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:211
+#: org/openscience/jmol/app/jmolpanel/MeasurementTable.java:66
+msgid "Measurements"
+msgstr "Měření"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:212
+msgid "Perspective Depth"
+msgstr "Hloubka perspektivy"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:213
+msgid "Axes"
+msgstr "Osy"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:214
+msgid "Bounding Box"
+msgstr "Hraniční box"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:216
+msgid "RasMol/Chime compatible axes orientation/rotations"
+msgstr "RasMol/Chime kompatibilní orientace/rotace os"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:218
+msgid "File Preview (requires restarting Jmol)"
+msgstr "Náhled souboru (vyžaduje restart Jmol)"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:220
+msgid "Clear history (requires restarting Jmol)"
+msgstr "Smazat historii (vyžaduje restart Jmolu)"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:221
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:222
+msgid "Use Atom Color"
+msgstr "Použít barvu atomu"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:223
+msgid "Rotate molecule."
+msgstr "Otáčet molekulu."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:225
+msgid "Select a set of atoms using SHIFT-LEFT-DRAG."
+msgstr ""
+"Vyberte skupinu atomů pomocí SHIFT a táhnutí myší se stisknutým levým "
+"tlačítkem."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:227
+msgid "Click atoms to measure distances"
+msgstr "Klepněte na atomy pro změření vzdálenosti"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:229
+msgid "Click an atom to center on it"
+msgstr "Klepněte na atom pro vycentrování"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:230
+msgid "Return molecule to home position."
+msgstr "Vrátit molekulu do výchozí polohy."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:231
+msgid "Open the model kit."
+msgstr "Spustit modelovací mód"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:232
+#: org/openscience/jmol/app/jmolpanel/RecentFilesDialog.java:70
+#: org/openscience/jmol/app/jmolpanel/console/AppConsole.java:158
+msgid "Clear"
+msgstr "Vyčistit"
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:367
+#, java-format
+msgid ""
+"To get a 3-D model you can manipulate, click {0}here{1}. Download time may "
+"be significant the first time the applet is loaded."
+msgstr ""
+"Pro získání 3-D modelu se kterým lze manipulovat, klepněte {0}zde{1}. Čas "
+"pro stažení může být napoprvé dlouhý, než se applet načte."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:369
+msgid "Insert the page TITLE here."
+msgstr "Vložte zde TITULEK stránky."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:370
+msgid "Insert the page INTRODUCTION here."
+msgstr "Vložte zde ÚVOD stránky."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:372
+#, java-format
+msgid "Insert a caption for {0} here."
+msgstr "Vložte zde titulek pro {0}."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:373
+#, java-format
+msgid ""
+"Insert additional explanatory text here. Long text will wrap around Jmol "
+"model {0}."
+msgstr ""
+"Zde vlož text s vysvětlením. Dlouhý text bude obtékat Jmol model {0}."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:375
+msgid "Insert your TITLE and INTRODUCTION here."
+msgstr "Zde vložte svůj TITULEK a ÚVOD."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:377
+#, java-format
+msgid ""
+"The button {0} will appear in the box below.  Insert information for {0} "
+"here and below."
+msgstr ""
+"Tlačítko {0} se objeví v rámečku níže. Vložte informaci pro {0} zde a níže."
+
+#: org/openscience/jmol/app/jmolpanel/GuiMap.java:378
+#, java-format
+msgid "Insert more information for {0} here."
+msgstr "Zde vložte více informací pro {0}."
+
+#: org/openscience/jmol/app/jmolpanel/HelpDialog.java:64
+msgid "Jmol Help"
+msgstr "Jmol nápověda"
+
+#: org/openscience/jmol/app/jmolpanel/HelpDialog.java:95
+#: org/openscience/jmol/app/jmolpanel/PreferencesDialog.java:182
+#: org/openscience/jmol/app/jmolpanel/WhatsNewDialog.java:89
+msgid "OK"
+msgstr "OK"
+
+#: org/openscience/jmol/app/jmolpanel/JmolPanel.java:227
+msgid "Initializing 3D display..."
+msgstr "Načítám 3D zobrazení..."
+
+#: org/openscience/jmol/app/jmolpanel/JmolPanel.java:264
+msgid "Initializing Script Window..."
+msgstr "Načítám skriptovací okno..."
+
+#: org/openscience/jmol/app/jmolpanel/JmolPanel.java:285
+msgid "Building Command Hooks..."
+msgstr "Vytvářím příkazy..."
+
+#: org/openscience/jmol/app/jmolpanel/JmolPanel.java:300
+msgid "Building Menubar..."
+msgstr "Vytvářím Menu..."
+
+#: org/openscience/jmol/app/jmolpanel/JmolPanel.java:315
+msgid "Starting display..."
+msgstr "Spouštím zobrazení..."
+
+#: org/openscience/jmol/app/jmolpanel/JmolPanel.java:362
+msgid "Setting up Drag-and-Drop..."
+msgstr "Nastavuji 'táhnout a pustit'..."
+
+#: org/openscience/jmol/app/jmolpanel/JmolPanel.java:370
+msgid "Launching main frame..."
+msgstr "Nahrávám hlavní snímek..."
+
+#: org/openscience/jmol/app/jmolpanel/JmolPanel.java:374
+msgid "Initializing Preferences..."
+msgstr "Načítám předvolby..."
+
+#: org/openscience/jmol/app/jmolpanel/JmolPanel.java:376
+msgid "Initializing Recent Files..."
+msgstr "Načítám naposledy otevřené soubory..."
+
+#: org/openscience/jmol/app/jmolpanel/JmolPanel.java:450
+msgid "Jmol Java Console"
+msgstr "Jmol Java konzole"
+
+#: org/openscience/jmol/app/jmolpanel/JmolPanel.java:470
+msgid "Could not create ConsoleTextArea: "
+msgstr "Nelze vytvořit textové pole pro konzoli: "
+
+#: org/openscience/jmol/app/jmolpanel/JmolPanel.java:514
+msgid "Creating main window..."
+msgstr "Vytvářím hlavní okno..."
+
+#: org/openscience/jmol/app/jmolpanel/JmolPanel.java:515
+msgid "Initializing Swing..."
+msgstr "Inicializuji Swing..."
+
+#: org/openscience/jmol/app/jmolpanel/JmolPanel.java:526
+msgid "Initializing Jmol..."
+msgstr "Inicializuji Jmol..."
+
+#: org/openscience/jmol/app/jmolpanel/JmolPanel.java:615
+msgid "Closing Jmol..."
+msgstr "Ukončuji Jmol..."
+
+#: org/openscience/jmol/app/jmolpanel/JmolPanel.java:1169
+msgid "Open URL"
+msgstr "Otevřít URL"
+
+#: org/openscience/jmol/app/jmolpanel/JmolPanel.java:1170
+msgid "Enter URL of molecular model"
+msgstr "Zadat URL molekulárního modelu"
+
+#: org/openscience/jmol/app/jmolpanel/JmolPanel.java:1194
+msgid "Enter a four-digit PDB model ID or \"=\" and a three-digit ligand ID"
+msgstr ""
+"Zadej čtyřčíselný  identifikátor PDB modelu nebo \"=\" a tříčíselný "
+"identifikátor ligandu"
+
+#: org/openscience/jmol/app/jmolpanel/JmolPanel.java:1203
+msgid ""
+"Enter the name or identifier (SMILES, InChI, CAS) of a compound. Preface "
+"with \":\" to load from PubChem; otherwise Jmol will use the NCI/NIH "
+"Resolver."
+msgstr ""
+"Zadej jméno nebo identifikátor (SMILES, InChI, CAS) sloučeniny. Předřaď "
+"\":\" pro nahrání z PubChem; jinak Jmol použije NCI/NIH Resolver."
+
+#: org/openscience/jmol/app/jmolpanel/JmolPanel.java:1376
+msgid "IO Exception:"
+msgstr "IO výjimka:"
+
+#: org/openscience/jmol/app/jmolpanel/JmolPanel.java:1514
+msgid "width height?"
+msgstr "šířka výška?"
+
+#: org/openscience/jmol/app/jmolpanel/MeasurementTable.java:124
+msgid "Delete"
+msgstr "Vymazat"
+
+#: org/openscience/jmol/app/jmolpanel/MeasurementTable.java:133
+msgid "DeleteAll"
+msgstr "Vymazat vše"
+
+#: org/openscience/jmol/app/jmolpanel/MeasurementTable.java:151
+msgid "Dismiss"
+msgstr "Storno"
+
+#: org/openscience/jmol/app/jmolpanel/MeasurementTable.java:202
+msgid "Value"
+msgstr "Hodnota"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:153
+msgid "Conversion from Jmol to POV-Ray"
+msgstr "Konverze z Jmolu do POV-Ray"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:157
+msgid "File Name:"
+msgstr "Název souboru:"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:159
+msgid ""
+"'caffeine.pov' -> 'caffeine.pov', 'caffeine.pov.ini', 'caffeine.pov.spt'"
+msgstr ""
+"'caffeine.pov' -> 'caffeine.pov', 'caffeine.pov.ini', 'caffeine.pov.spt'"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:169
+msgid "Working Directory"
+msgstr "Pracovní adresář"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:171
+msgid "Where the .pov files will be saved"
+msgstr "místo pro ukládání souborů .pov"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:191
+msgid "POV-Ray Runtime Options"
+msgstr "POV-Ray runtime možnosti"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:196
+msgid "Run POV-Ray directly"
+msgstr "Spustit POV-Ray přímo"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:198
+msgid "Launch POV-Ray from within Jmol"
+msgstr "Spustit POV-Ray z prostředí Jmol"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:243
+msgid "Display While Rendering"
+msgstr "Zobrazit průběh vykreslování"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:245
+msgid "Should POV-Ray attempt to display while rendering?"
+msgstr "Měl by se POV-Ray pokusit zobrazit během renderování?"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:268
+msgid "width:"
+msgstr "šířka:"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:270
+msgid "Image width"
+msgstr "Šířka obrázku:"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:285
+#: org/openscience/jmol/app/webexport/PopInJmol.java:74
+msgid "height:"
+msgstr "výška:"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:287
+msgid "Image height"
+msgstr "Výška obrázku:"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:304
+msgid "Fixed ratio : "
+msgstr "Fixní poměr: "
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:306
+msgid "Use a fixed ratio for width:height"
+msgstr "Zamknout poměr šířka:výška"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:317
+msgid "User defined"
+msgstr "Uživatelem definováno"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:319
+msgid "Keep ratio of Jmol window"
+msgstr "Zachovat poměr Jmol okna"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:359
+msgid "N - PNG"
+msgstr "N - PNG"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:362
+msgid "P - PPM"
+msgstr "P - PPM"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:365
+msgid "C - Compressed Targa-24"
+msgstr "C - komprese Targa-24"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:368
+msgid "T - Uncompressed Targa-24"
+msgstr "T - dekomprese Targa-24"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:384
+msgid "Alpha transparency"
+msgstr "Alfa průhlednost"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:386
+msgid "Output Alpha transparency data"
+msgstr "Výstupní data pro alfa průhlednost"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:399
+msgid "Mosaic preview"
+msgstr "Náhled - miniatury"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:401
+msgid "Render the image in several passes"
+msgstr "Vykreslit obrázek v několika krocích"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:411
+msgid "Start size : "
+msgstr "Velikost na začátku: "
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:413
+msgid "Initial size of the tiles"
+msgstr "počáteční velikost dlaždic"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:429
+msgid "End size : "
+msgstr "Velikost na konci: "
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:431
+msgid "Final size of the tiles"
+msgstr "Konečná velikost dlaždic"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:452
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:454
+msgid "Location of the POV-Ray Executable"
+msgstr "Umístění spustitelných souborů POV-Ray"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:491
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:755
+msgid "Go!"
+msgstr "Jdi!"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:493
+msgid "Save file and possibly launch POV-Ray"
+msgstr "Uložit soubor a spustit POV-Ray"
+
+#: org/openscience/jmol/app/jmolpanel/PovrayDialog.java:504
+msgid "Cancel this dialog without saving"
+msgstr "Zrušit dialog bez uložení"
+
+#: org/openscience/jmol/app/jmolpanel/PreferencesDialog.java:141
+msgid "Preferences"
+msgstr "Předvolby"
+
+#: org/openscience/jmol/app/jmolpanel/PreferencesDialog.java:159
+msgid "Display"
+msgstr "Zobrazit"
+
+#: org/openscience/jmol/app/jmolpanel/PreferencesDialog.java:160
+msgid "Atoms"
+msgstr "Atomy"
+
+#: org/openscience/jmol/app/jmolpanel/PreferencesDialog.java:161
+msgid "Bonds"
+msgstr "Vazby"
+
+#: org/openscience/jmol/app/jmolpanel/PreferencesDialog.java:166
+msgid "Jmol Defaults"
+msgstr "Jmol výchozí"
+
+#: org/openscience/jmol/app/jmolpanel/PreferencesDialog.java:170
+msgid "RasMol Defaults"
+msgstr "RasMol výchozí"
+
+#: org/openscience/jmol/app/jmolpanel/PreferencesDialog.java:178
+msgid "Apply"
+msgstr "Použít"
+
+#: org/openscience/jmol/app/jmolpanel/PreferencesDialog.java:206
+msgid "Show All"
+msgstr "Ukázat vše"
+
+#: org/openscience/jmol/app/jmolpanel/PreferencesDialog.java:305
+msgid "Default atom size"
+msgstr "Výchozí velikost atomu"
+
+#: org/openscience/jmol/app/jmolpanel/PreferencesDialog.java:306
+msgid "(percentage of vanDerWaals radius)"
+msgstr "(procento van der Waalsova poloměru)"
+
+#: org/openscience/jmol/app/jmolpanel/PreferencesDialog.java:360
+msgid "Compute Bonds"
+msgstr "Vypočítat vazby"
+
+#: org/openscience/jmol/app/jmolpanel/PreferencesDialog.java:362
+msgid "Automatically"
+msgstr "Automaticky"
+
+#: org/openscience/jmol/app/jmolpanel/PreferencesDialog.java:363
+msgid "Don't Compute Bonds"
+msgstr "Nevypočítat vazby"
+
+#: org/openscience/jmol/app/jmolpanel/PreferencesDialog.java:393
+msgid "Default Bond Radius"
+msgstr "Výchozí vazebný poloměr"
+
+#: org/openscience/jmol/app/jmolpanel/PreferencesDialog.java:394
+#: org/openscience/jmol/app/jmolpanel/PreferencesDialog.java:429
+#: org/openscience/jmol/app/jmolpanel/PreferencesDialog.java:470
+msgid "(Angstroms)"
+msgstr "(Angstromy)"
+
+#: org/openscience/jmol/app/jmolpanel/PreferencesDialog.java:428
+msgid "Bond Tolerance - sum of two covalent radii + this value"
+msgstr "Vazebná tolerance - součet 2 kovalentních poloměrů a této hodnoty"
+
+#: org/openscience/jmol/app/jmolpanel/PreferencesDialog.java:469
+msgid "Minimum Bonding Distance"
+msgstr "Minimální vazebná vzdálenost"
+
+#: org/openscience/jmol/app/jmolpanel/RecentFilesDialog.java:62
+msgid "Recent Files"
+msgstr "Naposledy otevřené soubory"
+
+#: org/openscience/jmol/app/jmolpanel/RecentFilesDialog.java:68
+msgid "Open"
+msgstr "Otevřít"
+
+#: org/openscience/jmol/app/jmolpanel/Splash.java:46
+msgid "Loading..."
+msgstr "Nahrávám..."
+
+#: org/openscience/jmol/app/jmolpanel/WhatsNewDialog.java:57
+msgid "What's New in Jmol"
+msgstr "Novinky v programu Jmol"
+
+#: org/openscience/jmol/app/jmolpanel/console/AppConsole.java:157
+msgid "Check"
+msgstr "Zkontrolovat"
+
+#: org/openscience/jmol/app/jmolpanel/console/AppConsole.java:159
+msgid "Close"
+msgstr "Zavřít"
+
+#: org/openscience/jmol/app/jmolpanel/console/AppConsole.java:160
+msgid "Halt"
+msgstr "Zastavit"
+
+#: org/openscience/jmol/app/jmolpanel/console/AppConsole.java:161
+msgid "Help"
+msgstr "Nápověda"
+
+#: org/openscience/jmol/app/jmolpanel/console/AppConsole.java:162
+msgid "Editor"
+msgstr "Editor"
+
+#: org/openscience/jmol/app/jmolpanel/console/AppConsole.java:163
+msgid "History"
+msgstr "Historie"
+
+#: org/openscience/jmol/app/jmolpanel/console/AppConsole.java:164
+msgid "State"
+msgstr "Stav"
+
+#: org/openscience/jmol/app/jmolpanel/console/AppConsole.java:165
+msgid "Step"
+msgstr "Krok"
+
+#: org/openscience/jmol/app/jmolpanel/console/AppConsole.java:166
+msgid "Top"
+msgstr "Shora"
+
+#: org/openscience/jmol/app/jmolpanel/console/AppConsole.java:167
+msgid "Undo"
+msgstr "Zpět"
+
+#: org/openscience/jmol/app/jmolpanel/console/AppConsole.java:168
+msgid "Redo"
+msgstr "Znovu"
+
+#: org/openscience/jmol/app/jmolpanel/console/AppConsole.java:169
+msgid "Variables"
+msgstr "Proměnné"
+
+#: org/openscience/jmol/app/jmolpanel/console/ConsoleTextArea.java:88
+#, java-format
+msgid "Error reading from BufferedReader: {0}"
+msgstr "Chyba při čtení vyrovnávací paměti: {0}"
+
+#: org/openscience/jmol/app/jsonkiosk/JsonNioService.java:492
+msgid "magic"
+msgstr "magie"
+
+#: org/openscience/jmol/app/jsonkiosk/JsonNioService.java:493
+msgid "role"
+msgstr "role"
+
+#: org/openscience/jmol/app/jsonkiosk/JsonNioService.java:512
+msgid "type"
+msgstr "typ"
+
+#: org/openscience/jmol/app/jsonkiosk/JsonNioService.java:518
+msgid "text"
+msgstr "text"
+
+#: org/openscience/jmol/app/jsonkiosk/JsonNioService.java:519
+msgid "visibility"
+msgstr "viditelnost"
+
+#: org/openscience/jmol/app/jsonkiosk/JsonNioService.java:524
+msgid "command"
+msgstr "příkaz"
+
+#: org/openscience/jmol/app/jsonkiosk/JsonNioService.java:531
+msgid "id"
+msgstr "id"
+
+#: org/openscience/jmol/app/jsonkiosk/JsonNioService.java:560
+msgid "startup"
+msgstr "startup"
+
+#: org/openscience/jmol/app/jsonkiosk/JsonNioService.java:561
+msgid "filename"
+msgstr "název souboru"
+
+#: org/openscience/jmol/app/jsonkiosk/JsonNioService.java:568
+msgid "startup_script"
+msgstr "startup_script"
+
+#: org/openscience/jmol/app/jsonkiosk/JsonNioService.java:574
+msgid "banner"
+msgstr "banner"
+
+#: org/openscience/jmol/app/jsonkiosk/JsonNioService.java:575
+msgid "banner_text"
+msgstr "banner_text"
+
+#: org/openscience/jmol/app/jsonkiosk/JsonNioService.java:579
+msgid "style"
+msgstr "styl"
+
+#: org/openscience/jmol/app/jsonkiosk/JsonNioService.java:622
+msgid "x"
+msgstr "x"
+
+#: org/openscience/jmol/app/jsonkiosk/JsonNioService.java:623
+msgid "y"
+msgstr "y"
+
+#: org/openscience/jmol/app/jsonkiosk/JsonNioService.java:640
+msgid "sync"
+msgstr "synchronizace"
+
+#: org/openscience/jmol/app/surfacetool/SurfaceTool.java:70
+msgid "Degrees"
+msgstr "Stupně"
+
+#: org/openscience/jmol/app/surfacetool/SurfaceTool.java:70
+msgid "Radians"
+msgstr "Radiány"
+
+#: org/openscience/jmol/app/surfacetool/SurfaceTool.java:71
+msgid "Gradians"
+msgstr "Gradiány"
+
+#: org/openscience/jmol/app/surfacetool/SurfaceTool.java:71
+msgid "Circle Fraction"
+msgstr "frakce kružnice"
+
+#: org/openscience/jmol/app/surfacetool/SurfaceTool.java:71
+msgid "Units of Pi"
+msgstr "Jednotek Pi"
+
+#: org/openscience/jmol/app/surfacetool/SurfaceTool.java:312
+#: org/openscience/jmol/app/surfacetool/SurfaceTool.java:366
+#: org/openscience/jmol/app/surfacetool/SurfaceTool.java:389
+msgid "Percentage scaling not implemented yet!"
+msgstr "Procento škálování - není ještě implementováno!"
+
+#: org/openscience/jmol/app/surfacetool/SurfaceToolGUI.java:133
+msgid "SurfaceTool"
+msgstr ""
+
+#: org/openscience/jmol/app/surfacetool/SurfaceToolGUI.java:152
+#: org/openscience/jmol/app/surfacetool/SurfaceToolGUI.java:155
+msgid "View Center"
+msgstr "Centrum pohledu"
+
+#: org/openscience/jmol/app/surfacetool/SurfaceToolGUI.java:153
+#: org/openscience/jmol/app/surfacetool/SurfaceToolGUI.java:156
+msgid "Absolute"
+msgstr "Absolutní"
+
+#: org/openscience/jmol/app/surfacetool/SurfaceToolGUI.java:164
+msgid "Origin"
+msgstr "Počátek"
+
+#: org/openscience/jmol/app/surfacetool/SurfaceToolGUI.java:167
+msgid "Cap"
+msgstr ""
+
+#: org/openscience/jmol/app/surfacetool/SurfaceToolGUI.java:170
+msgid ""
+"Caps slice with opaque surfaces.\n"
+"Ignores MOs and surfaces with interior layers."
+msgstr ""
+
+#: org/openscience/jmol/app/surfacetool/SurfaceToolGUI.java:174
+msgid "Slice Planes"
+msgstr "Roviny řezu"
+
+#: org/openscience/jmol/app/surfacetool/SurfaceToolGUI.java:176
+msgid "Shows planes at slicing surfaces."
+msgstr "Ukázat roviny na uřezaných površích."
+
+#: org/openscience/jmol/app/surfacetool/SurfaceToolGUI.java:183
+msgid "Ghost On"
+msgstr ""
+
+#: org/openscience/jmol/app/surfacetool/SurfaceToolGUI.java:186
+msgid "Shows an unsliced \"ghost\"."
+msgstr ""
+
+#: org/openscience/jmol/app/surfacetool/SurfaceToolGUI.java:206
+msgid "Angle from X-axis in XY plane"
+msgstr "Úhel od osy X v rovině XY"
+
+#: org/openscience/jmol/app/surfacetool/SurfaceToolGUI.java:217
+msgid "Angle from Z-axis"
+msgstr "Úhel od osy Z"
+
+#: org/openscience/jmol/app/surfacetool/SurfaceToolGUI.java:228
+msgid "Direction vector of normal to slice"
+msgstr "Normálový vektor k řezu"
+
+#: org/openscience/jmol/app/surfacetool/SurfaceToolGUI.java:231
+msgid "Distance of slice from origin"
+msgstr "Vzdálenost řezu od počátku"
+
+#: org/openscience/jmol/app/surfacetool/SurfaceToolGUI.java:243
+msgid "Thickness of slice"
+msgstr "Tloušťka řezu"
+
+#: org/openscience/jmol/app/surfacetool/SurfaceToolGUI.java:261
+msgid "Select Surface(s)"
+msgstr "Vybrat povrch(y)"
+
+#: org/openscience/jmol/app/webexport/JmolInstance.java:82
+msgid "Attempt to make scratch directory failed."
+msgstr "Pokus o vyvoření pracovní složky selhal."
+
+#: org/openscience/jmol/app/webexport/LogPanel.java:56
+msgid "Log and Error Messages:"
+msgstr "Záznamy a chybové zprávy:"
+
+#: org/openscience/jmol/app/webexport/LogPanel.java:64
+msgid "Messages (see Log tab for full history):"
+msgstr "Zprávy (viz záložka Záznamy pro úplnou historii):"
+
+#: org/openscience/jmol/app/webexport/PopInJmol.java:46
+msgid "These names will be used as filenames for the applets"
+msgstr "Tyto názvy budou použity jako jména souborů pro applety."
+
+#: org/openscience/jmol/app/webexport/PopInJmol.java:72
+msgid "Applet width:"
+msgstr "Šířka appletu:"
+
+#: org/openscience/jmol/app/webexport/PopInJmol.java:107
+#, java-format
+msgid "insert a caption for {0} here."
+msgstr "zde vložte titulek pro {0}."
+
+#: org/openscience/jmol/app/webexport/PopInJmol.java:110
+#, java-format
+msgid "insert a note for {0} here."
+msgstr "zde vložte poznámku pro {0}."
+
+#: org/openscience/jmol/app/webexport/ScriptButtons.java:44
+msgid "These names will be used for button labels"
+msgstr "Tyto názvy budou použity pro text na tlačítkách"
+
+#: org/openscience/jmol/app/webexport/ScriptButtons.java:57
+msgid "% of window for applet width:"
+msgstr "% okna pro šířku appletu:"
+
+#: org/openscience/jmol/app/webexport/WebExport.java:79
+#: org/openscience/jmol/app/webexport/WebExport.java:191
+#: org/openscience/jmol/app/webexport/WebExport.java:268
+msgid "Jmol Web Page Maker"
+msgstr "Jmol: tvůrce webových stránek"
+
+#: org/openscience/jmol/app/webexport/WebExport.java:100
+msgid "Couldn't find file: {0}"
+msgstr "Nemohu najít soubor: {0}"
+
+#: org/openscience/jmol/app/webexport/WebExport.java:119
+msgid "Introduction"
+msgstr "Úvod"
+
+#: org/openscience/jmol/app/webexport/WebExport.java:129
+msgid "Pop-In Jmol"
+msgstr "Vyskakovací Jmol (Pop-In)"
+
+#: org/openscience/jmol/app/webexport/WebExport.java:130
+msgid "ScriptButton Jmol"
+msgstr "Tlačítkový Jmol (ScriptButton)"
+
+#: org/openscience/jmol/app/webexport/WebExport.java:147
+msgid "Log"
+msgstr "Záznamy"
+
+#: org/openscience/jmol/app/webexport/WebExport.java:162
+#, java-format
+msgid ""
+"Page skeleton and JavaScript generated by export to web function using {0} "
+"on {1}."
+msgstr ""
+"Jádro stránky a JavaScript vytvořen pomocí funkce exportu na web {0} na {1}."
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:155
+msgid "A web page containing Jmol applets"
+msgstr "Webová stránka obsahující Jmol applety"
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:180
+msgid "click and drag to reorder"
+msgstr "klepnout a táhnout pro změnu uspořádání"
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:185
+msgid "Add Present Jmol State as Instance..."
+msgstr "Přidejte současný stav Jmolu jako instanci..."
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:192
+msgid "Delete Selected"
+msgstr "Smazat vybrané"
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:224
+msgid "Jmol Instances:"
+msgstr "Instance Jmolu:"
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:230
+msgid "Select widgets:"
+msgstr "Vyber widget:"
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:333
+msgid "Help/Instructions"
+msgstr "Nápověda/Pokyny"
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:340
+#: org/openscience/jmol/app/webexport/WebPanel.java:348
+msgid "Cartoon of Page"
+msgstr "Skica stránky"
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:354
+msgid "Save HTML as..."
+msgstr "Uložit HTML jako..."
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:364
+msgid "Relative server path to jar files:"
+msgstr "Relativní cesta na serveru k JAR souborům:"
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:370
+msgid "Relative local path to jar files:"
+msgstr "Relativní cesta na lokálním počítači k JAR souborům:"
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:376
+msgid "Author (your name):"
+msgstr "Autor (vaše jméno):"
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:383
+msgid "Browser window title for this web page:"
+msgstr "Titulek okna prohlížeče pro tuto webovou stránku:"
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:469
+msgid "Give the occurrence of Jmol a name:"
+msgstr "Dej této konfiguraci Jmolu jméno:"
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:485
+msgid "Error creating new instance containing script(s) and image."
+msgstr "Chyba při vytváření nové instance obsahující skripty a obrázky."
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:496
+#, java-format
+msgid "added Instance {0}"
+msgstr "přidána instance {0}"
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:499
+#, java-format
+msgid "updated Instance {0}"
+msgstr "aktualizovaná instance {0}"
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:536
+msgid "Select a directory to create or an HTML file to save"
+msgstr "Vyberte složku pro vytvoření nebo HTML soubor pro uložení"
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:556
+#, java-format
+msgid "file {0} created"
+msgstr "soubor {0} vytvořen"
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:558
+msgid "Call to FileWriter unsuccessful."
+msgstr "Volání FileWriteru neúspěšné."
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:562
+msgid "Errors occurred during web page creation.  See Log Tab!"
+msgstr ""
+"Při vytváření webové stránky se objevily chyby.  Podívejte se do záložky Log!"
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:637
+#, java-format
+msgid "Using directory {0}"
+msgstr "Používám složku {0}"
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:638
+#: org/openscience/jmol/app/webexport/WebPanel.java:650
+#: org/openscience/jmol/app/webexport/WebPanel.java:670
+#: org/openscience/jmol/app/webexport/WebPanel.java:684
+#: org/openscience/jmol/app/webexport/WebPanel.java:712
+#, java-format
+msgid "adding {0}"
+msgstr "přidávám {0}"
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:699
+#, java-format
+msgid "Unable to load resource {0}"
+msgstr "Nemohu nahrát zdroj {0}"
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:752
+msgid "Based on template by A. Herr&#x00E1;ez as modified by J. Gutow"
+msgstr "Založeno na šabloně A. Herr&#x00E1;eze, kterou upravil J. Gutow"
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:755
+#, java-format
+msgid "creating {0}"
+msgstr "vytvářím {0}"
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:791
+#, java-format
+msgid ""
+"Could not find or open:\n"
+"{0}\n"
+"Please check that you are using a Jmol.jar that is part of a full Jmol "
+"distribution."
+msgstr ""
+"Nemohu najít nebo otevřít:\n"
+"{0}\n"
+"Zkontrolujte prosím, zda používáte soubor Jmol.jar,  který je součástí plné "
+"distribuce Jmol."
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:796
+#, java-format
+msgid ""
+"copying\n"
+"{0}\n"
+"         to"
+msgstr ""
+"kopíruji\n"
+"{0}\n"
+"         do"
+
+#: org/openscience/jmol/app/webexport/WebPanel.java:803
+msgid "compressing large data file to"
+msgstr "komprimuji velký soubor do"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:62
+msgid "Spin on/off"
+msgstr "Rotace ano/ne"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:80
+msgid "enable/disable spin"
+msgstr "umožnit/zakázat rotaci"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:82
+msgid "Spin on"
+msgstr "Zapni rotaci"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:88
+msgid "Background Color"
+msgstr "Barva pozadí"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:106
+msgid "background color:"
+msgstr "barva pozadí:"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:119
+msgid "Stereo Viewing"
+msgstr "Stereo pohled"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:136
+msgid "select stereo type"
+msgstr "vybrat stereo typ"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:140
+msgid "Stereo Off"
+msgstr "Vypnout stereo"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:141
+msgid "Red/Blue"
+msgstr "Červená/Modrá"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:143
+msgid "Red/Cyan"
+msgstr "Červená/Modrozelená"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:145
+msgid "Red/Green"
+msgstr "Červená/Zelená"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:152
+msgid "Animation Control"
+msgstr "Kontrola animace"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:179
+msgid "Animation"
+msgstr "Animace"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:180
+msgid "First Frame"
+msgstr "První snímek"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:182
+msgid "Previous Frame"
+msgstr "Předchozí snímek"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:184
+msgid "Play"
+msgstr "Přehrát"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:186
+msgid "Next Frame"
+msgstr "Další snímek"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:188
+msgid "Pause"
+msgstr "Pozastavit"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:190
+msgid "Last Frame"
+msgstr "Poslední snímek"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:192
+msgid "Mode:"
+msgstr "Režim:"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:193
+msgid "Loop"
+msgstr "Přehrávat dokola"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:195
+msgid "Palindrome"
+msgstr "Palindrom"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:197
+msgid "Play Once"
+msgstr "Přehrát jednou"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:206
+msgid "Open Console Button"
+msgstr "Tlačítko pro otevření konzole"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:222
+msgid "launch Jmol console"
+msgstr "spustit Jmol konzoli"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:224
+msgid "Jmol Console"
+msgstr "Jmol konzole"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:229
+msgid "Download view"
+msgstr "Ulož pohled"
+
+#: org/openscience/jmol/app/webexport/Widgets.java:247
+msgid "unimplemented"
+msgstr "neimplementováno"
+
+#~ msgid "All"
+#~ msgstr "Vše"
+
+#~ msgid "None"
+#~ msgstr "Nic"
+
+#~ msgid "Wireframe"
+#~ msgstr "Drátový model"
+
+#~ msgid "Label"
+#~ msgstr "Popisek"
+
+#~ msgid "Centered"
+#~ msgstr "Na střed"
+
+#~ msgid "On"
+#~ msgstr "Zapnuto"
+
+#~ msgid "Zoom"
+#~ msgstr "Lupa"
+
+#~ msgid "Front"
+#~ msgstr "Zepředu"
+
+#~ msgid "Bottom"
+#~ msgstr "Zespoda"
+
+#~ msgid "Right"
+#~ msgstr "Zprava"
+
+#~ msgid "Left"
+#~ msgstr "Zleva"
+
+#~ msgid "Controller"
+#~ msgstr "Ovládací prvek"
+
+#~ msgid "atom set"
+#~ msgstr "sada atomů"
+
+#~ msgid "vector"
+#~ msgstr "vektor"
+
+#, java-format
+#~ msgid "Go to first {0} in the collection"
+#~ msgstr "Přejít na první {0} v kolekci"
+
+#, java-format
+#~ msgid "Go to previous {0} in the collection"
+#~ msgstr "Přejít na předchozí {0} v kolekci"
+
+#, java-format
+#~ msgid "Play the whole collection of {0}'s"
+#~ msgstr "Přehrát celou kolekci {0}"
+
+#, java-format
+#~ msgid "Go to next {0} in the collection"
+#~ msgstr "Přejít na další {0} ve sbírce"
+
+#, java-format
+#~ msgid "Jump to last {0} in the collection"
+#~ msgstr "Přejít na poslední  {0} ve sbírce"
+
+#~ msgid "Jmol Script Console"
+#~ msgstr "Jmol skriptovací konzole"
+
+#~ msgid "The -D options are as follows (defaults in parenthesis):"
+#~ msgstr "-D volby jsou následující (standardní v závorkách):"
+
+#~ msgid "Output Conso&le..."
+#~ msgstr "Output Conso&le..."
+
+#~ msgid "independent commmand thread"
+#~ msgstr "nezávislá řada příkazů"
+
+#~ msgid "Show Selected"
+#~ msgstr "Zobrazit vybrané"
+
+#~ msgid "double-click and drag to reorder"
+#~ msgstr "poklepejte a táhněte pro změnu pořadí"
+
+#, java-format
+#~ msgid ""
+#~ "Insert additonal explanatory text here. Long text will wrap around Jmol "
+#~ "model {0}."
+#~ msgstr ""
+#~ "Zde vložte vysvětlující text. Delší text bude obtékat Jmol model {0}."
+
+#, java-format
+#~ msgid ""
+#~ "Could not find or open:\n"
+#~ "{0}"
+#~ msgstr ""
+#~ "Nemohu najít nebo otevřít:\n"
+#~ "{0}"
+
+#, java-format
+#~ msgid "adding {0}.spt"
+#~ msgstr "přidávám {0}.spt"
+
+#, java-format
+#~ msgid "adding {0}.png"
+#~ msgstr "přidávám {0}.png"
+
+#~ msgid "adding JmolPopIn.js"
+#~ msgstr "přidávám JmolPopIn.js"
+
+#~ msgid "Clear console button (requires restarting Jmol)"
+#~ msgstr "Vyčistit tlačítka konzole (vyžaduje restart Jmolu)"
+
+#~ msgid "Go to next vector in the collection"
+#~ msgstr "Jít na další vektor v kolekci"
+
+#~ msgid "Play the whole collection of vectors"
+#~ msgstr "Přehrát celou kolekci vektorů"
+
+#~ msgid "Go to first vector in the collection"
+#~ msgstr "Jít na první vektor v kolekci"
+
+#~ msgid "Go to previous vector in the collection"
+#~ msgstr "Jít na předchozí vektor v kolekci"
+
+#~ msgid "Jump to last vector in the collection"
+#~ msgstr "Skočit na poslední vektor v kolekci"
+
+#~ msgid "Enter the name or identifier (SMILES, InChI, CAS) of a molecule"
+#~ msgstr "Zadej jméno nebo identifikátor (SMILES, InChI, CAS) molekuly"
+
+#~ msgid "Get MOL file by compound name or ID"
+#~ msgstr "Získat MOL soubor podle jména sloučeniny nebo ID"
+
+#~ msgid "Get PDB file"
+#~ msgstr "Získat PDB soubor"
+
+#~ msgid "Enter a four-digit PDB ID"
+#~ msgstr "Zadej čtyřčíselný PDB ID"
+
+#~ msgid "domain"
+#~ msgstr "doména"
+
+#~ msgid "expires"
+#~ msgstr "vyprší"
+
+#~ msgid "HTTP-Version"
+#~ msgstr "HTTP-verze"
+
+#~ msgid "path"
+#~ msgstr "cesta"
+
+#~ msgid "value"
+#~ msgstr "hodnota"
+
+#~ msgid "name"
+#~ msgstr "název"
+
+#~ msgid "Method"
+#~ msgstr "Metoda"
+
+#~ msgid "Request-URI"
+#~ msgstr "URI požadavku"

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Java3D">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Program Files/Java/Java3D/1.5.1/bin"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/Acme.jar"/>
+	<classpathentry kind="lib" path="lib/commons-cli-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/gnujaxp-onlysax.jar"/>
+	<classpathentry kind="lib" path="lib/gnujaxp.jar"/>
+	<classpathentry kind="lib" path="lib/itext-1.4.5.jar"/>
+	<classpathentry kind="lib" path="lib/JSpecView.jar"/>
+	<classpathentry kind="lib" path="lib/junit.jar"/>
+	<classpathentry kind="lib" path="lib/naga-3_0.jar"/>
+	<classpathentry kind="lib" path="lib/netscape.jar"/>
+	<classpathentry kind="lib" path="lib/saxon.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
