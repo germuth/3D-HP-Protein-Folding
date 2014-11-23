@@ -3,6 +3,8 @@
 
 A Distributed, Concurrent, 3D Protein Folding Application
 
+Worked on by Travis Reinheimer, Yishan Hu, Chen Yao, Lee Foster, and Aaron Germuth.
+
 <b>Protein Folding:</b>
 
 Proteins are large polymers located within the body, with a large array of functions (from muscle to digesting food).
