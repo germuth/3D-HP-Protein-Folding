@@ -1,48 +1,50 @@
 3D-HP-Protein-Folding
 =====================
 
-A Distributed, Concurrent, 3D Protein Folding Application
+A Concurrent, 3D Protein Folding Application
 
 Worked on by Travis Reinheimer, Yishan Hu, Chen Yao, Lee Foster, and Aaron Germuth.
 
 <b>Protein Folding:</b>
 
 Proteins are large polymers located within the body, with a large array of functions (from muscle to digesting food).
-Proteins function is decided in part by it's primary structure (the amino acids which make it up) but also it's 3D
+Protein function is decided in part by it's primary structure (the amino acids which make it up) but also it's 3D
 folded shape it conforms to within the body. Therefore, determining the shape of a protein is just as important as
 determining the sequence.
 
 <b>HP Model:</b>
 
-The HP model is a simple abstraction used to simplify protein folding. Instead of the (normal) 20 amino acids found
+The HP model is a simple abstraction used to simplify protein folding. Instead of the 20 amino acids found
 in nature, there are only two (h and p). H stands for hydrophobic (scared of water) and p stands for hydrophilic or
-polar (attracted to water). In large protein complexs, a driving force towards the resulting shape is the arrangement
+polar (attracted to water). In large protein complexes, a driving force towards the resulting shape is the arrangement
 of whether each amino acid is hydrophobic or hydrophilic. Usually, hydrophobic cores are formed on the inside, with
-a hydrophilic 'shell' around the core. We can take a know sequence, translate it to HP, and then fold it much
-easier to get an approximation at the resulting structure. In real protein folding, there are many other
+a hydrophilic 'shell' around the core. We can take a known sequence, translate it to HP, and then fold it to get an approximation at the resulting structure. In real protein folding, there are many other
 factors which contribute to shape, such as Hydrogen bonds (alpha-helix / beta-sheet), di-sulphide bonds, and ionic
 interactions. 
 
 <b>Genetic Algorithm:</b>
 
-Even in the HP model the amount of possible shapes a protein could take is massive. The problem has been proved to be
+Even in the HP model, the amount of possible shapes a protein could take is massive. This problem has been proved to be
 NP - Complete. Therefore, writing a simple program to find all possibilities, and return the best one would take
 an unreasonable amount of time. We use a genetic algorithm to approximate at the best solution. Genetic Algorithms
 start with a random population and apply genetic operations (crossover, mutation, reproduction) to create new populations.
 Then a Fitness Function is ran to determine who is the best of the population, and the process in repeated, often
 thousands of times. The fitness function in our case is as follows:
 
-We Iterate through our chain of h's and p's, and every time we find an h, we search all positions around the h and
+We iterate through our chain of h's and p's, and every time we find an h, we search all positions around the h and
 look at what residue in there. 
 <i>Note: that only residues which have been folded to be beside the current h are included, not ones which are right before or after in the sequence.</i>
 
 H - H : +6 to protein health
+
 	This is given a high score, as is it inidicates the formation of a hydrophobic core
 
 H - P : +1 to protein health
+
 	This is given a posivive score, as it indicates p's are forming a shell around the h's
 
 H - nothing: - 2 to protein health
+
 	This is given a negative score, as it indicates the h is bare and has no 'protection'
 
 <b>Jmol:</b>
