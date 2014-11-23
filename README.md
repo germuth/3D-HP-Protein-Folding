@@ -2,6 +2,8 @@
 =====================
 A Concurrent 3D Protein Folding Application
 
+![screenshot](https://cloud.githubusercontent.com/assets/3782710/5156450/8893be00-7277-11e4-9a1c-d74fe31490a4.png)
+
 Worked on by Ben Hartshorn, Mike Peters, Travis Reinheimer, Yishan Hu, Chen Yao, Lee Foster, and Aaron Germuth.
 
 <b>Overview:</b>
