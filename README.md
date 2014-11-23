@@ -1,16 +1,22 @@
 3D-HP-Protein-Folding
 =====================
+A Concurrent 3D Protein Folding Application
 
-A Concurrent, 3D Protein Folding Application
+Worked on by Ben Hartshorn, Mike Peters, Travis Reinheimer, Yishan Hu, Chen Yao, Lee Foster, and Aaron Germuth.
 
-Worked on by Travis Reinheimer, Yishan Hu, Chen Yao, Lee Foster, and Aaron Germuth.
+<b>Overview:</b>
+
+This application can be used to approximate the 3D structure of proteins. Folding proteins is an computationally intensive procedure, so we use many simplifications. The application is multi-threaded and may be ran from multiple different computers through a network. There are many improvements to be made.
+
+<b>How to Run</b>
+
+The entire project should first be imported into eclipse. Java3D should be installed on the machine. Use this tutorial to help you (https://www.cs.utexas.edu/~scottm/cs324e/handouts/setUpJava3dEclipse.htm). Make sure all of the jars in lib are actually imported into the build path. As it stands, there are 3 main threads. The graphical user interface (Gui.java), the worker thread which folds the protein (Worker.java), and a communication thread (Coordinator.java). All three of these threads must be running in order to fold a protein. First run the coordinator and you should see "Waiting for a new connection". A Worker can than be started on the same machine (a worker can be run from a seperate machine). The coordinator should respond immediately saying "Got a worker". Multiple workers can be loaded. At this point, you can run the Graphical User Interface from any computer and select Connection. "localhost" means the gui and coordinate are run on the same machine. Otherwise specific the server here such as "servername.com". Once the connection is valid, you can select "Generate" and begin to watch the protein fold. The worker threads will send back progress while running, and the interface will automatically display these. One 
 
 <b>Protein Folding:</b>
 
 Proteins are large polymers located within the body, with a large array of functions (from muscle to digesting food).
 Protein function is decided in part by it's primary structure (the amino acids which make it up) but also it's 3D
-folded shape it conforms to within the body. Therefore, determining the shape of a protein is just as important as
-determining the sequence.
+folded shape it conforms to within the body. Therefore, determining the shape of a protein is an important step towards determining its function.
 
 <b>HP Model:</b>
 
@@ -21,6 +27,10 @@ of whether each amino acid is hydrophobic or hydrophilic. Usually, hydrophobic c
 a hydrophilic 'shell' around the core. We can take a known sequence, translate it to HP, and then fold it to get an approximation at the resulting structure. In real protein folding, there are many other
 factors which contribute to shape, such as Hydrogen bonds (alpha-helix / beta-sheet), di-sulphide bonds, and ionic
 interactions. 
+
+<b>Other Assumptions:</b>
+
+The position of each amino acid is restricted to integer coordinates. Each peptide bond forms an exact angle of either 0, 90, or 180 degrees. When replacing each H or P with the actual amino acid structure, the relative positions of each atom in the amino acid are kept constant. Many improvements could be made in this area. For example, having some sort of limit as to how close atoms can be, and allowing for the rotation about each atom of the amino acid.
 
 <b>Genetic Algorithm:</b>
 
@@ -50,7 +60,7 @@ H - nothing: - 2 to protein health
 <b>Jmol:</b>
 
 Our program also makes use of an open source, free, java application called Jmol. Jmol is meant to serve as a universal
-application for displaying all kinds of molecular structures. It can display everything from nucleic acids, quaternary proteins, to ligands. 
+application for displaying all kinds of molecular structures. 
 
 <b>PDB File:</b>
 
@@ -61,14 +71,7 @@ complicated information. Jmol can open .pdb files and display them in 3 dimensio
 
 <b>Our Application:</b>
 
-Our application takes in input in three forms: (1) a .pdb file, (2) user inputted sequence, or (3) random. This inputs
-multiple amino acids into our application. These amino acids are converted to the HP model and folded using an genetic 
-algorithm. The resulting 3D HP protein is then displayed. The user then has the option to have the folded HP model
-displayed at an atomic level using Jmol. Since this structure is generated using the 3d HP model, it may not be 
-a correct molecule (atoms may overlay, bonds may not have exact lengths or angles found in nature). But this is the purpose.
-We can visually show the results of the HP model. In the case of input in a pdb file, you also have the option to display
-the experimentally determined structure. This allows you to open two windows and visually compare the two structures. The 
-main benefit of this, is it supplies an easy way to visually test the accuracy of the HP model. 
+Our application takes as input a sequence of amino acids. These amino acids are converted to the HP model and folded using an genetic algorithm. The resulting 3D HP protein is then displayed. The user then has the option to have the protein displayed at an atomic level using Jmol. Since this structure is generated using the 3d HP model, it may not be  a correct molecule (atoms may overlay, bonds may not have exact lengths or angles found in nature). But this is the purpose. We can visually show the results of the HP model. When a pdf file is used as input, you also have the option to display the actual structure in Jmol. This allows you to open two windows and visually compare the two structures. This is an easy way to visually test the accuracy of the HP model. 
 
 <b>Further Directions:</b>
 
